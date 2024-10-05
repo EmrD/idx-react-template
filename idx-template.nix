@@ -1,24 +1,8 @@
 { pkgs, ... }: {
-  channel = "stable-23.11"; 
-  packages = [
-    pkgs.nodejs_20
-  ];
   bootstrap = ''
-    mkdir "$out"
-    git clone https://github.com/EmrD/react-tailwind-template.git
+    cp -rf ${./.} "$out"
+
+    chmod -R +w "$out"
+    rm -rf "$out/.git" "$out/idx-template".{nix,json}
   '';
-  env = {};
-  idx = {
-    extensions = [
-    ];
-    workspace = {
-      onCreate = {
-        npm-install = "npm ci --no-audit --prefer-offline --no-progress --timing";
-        default.openFiles = [ "src/App.tsx" "src/App.ts" "src/App.jsx" "src/App.js" ];
-      };
-      onStart = {
-        npm-run-dev = "npm run dev";
-      };
-    };
-  };
 }
