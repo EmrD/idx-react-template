@@ -1,5 +1,4 @@
-# .idx/dev.nix
-{pkgs}: {
+{ pkgs }: {
   idx = {
     workspace = {
       onCreate = {
@@ -8,7 +7,7 @@
         ];
         installDependencies = "npm i";
       };
-    previews = {};
+      previews = {};
+    };
   };
-};
 }
