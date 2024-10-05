@@ -3,7 +3,9 @@
   packages = [
     pkgs.nodejs_20
   ];
-  bootstrap = '''';
+  bootstrap = ''
+    mkdir "$out"
+  '';
   env = {};
   idx = {
     extensions = [
