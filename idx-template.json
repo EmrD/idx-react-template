@@ -2,9 +2,5 @@
     "name": "React + Tailwind CSS",
     "description": "A template for React with Tailwind CSS usage.",
     "icon": "https://www.gstatic.com/monospace/231115/logo_react.svg",
-    "params": [],
-    "bootstrap": {
-        "commands": [],
-        "files": {}
-      }
-  }
+    "params": []
+}
