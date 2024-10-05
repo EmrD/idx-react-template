@@ -8,6 +8,9 @@
         ];
         checkDependencies = "npm audit fix";
       };
+      onStart = {
+        runServer = "npm run dev";
+      };
     };
   };
 }
