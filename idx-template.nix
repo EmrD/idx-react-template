@@ -3,6 +3,7 @@
   packages = [
     pkgs.nodejs_20
   ];
+  bootstrap = ''''
   env = {};
   idx = {
     extensions = [
