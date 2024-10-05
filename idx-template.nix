@@ -1,5 +1,5 @@
 { pkgs, ... }: {
-  channel = "stable-24.05"; 
+  channel = "stable-23.11"; 
   packages = [
     pkgs.nodejs_20
   ];
