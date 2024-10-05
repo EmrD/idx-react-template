@@ -3,12 +3,12 @@
     workspace = {
       onCreate = {
         default.openFiles = [
-          "src/App.jsx"
+          "src/App.jsx",
           "README.md"
         ];
         installDependencies = "npm i";
         checkDependencies = "npm audit fix";
-        runServer = "npm run dev"
+        runServer = "npm run dev";
       };
     };
   };
