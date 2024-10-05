@@ -1,4 +1,4 @@
-## Welcome to React + Tailwind CSS Usage with IDX!
+## Welcome to React + Tailwind CSS Template with IDX!
 
 Start coding with editing the ```App.jsx``` file.<br>
 
