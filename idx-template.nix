@@ -1,4 +1,8 @@
 { pkgs, ... }: {
+  packages = [
+    pkgs.nodejs
+  ];
+
   bootstrap = ''
     cp -rf ${./.} "$out"
 
