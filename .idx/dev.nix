@@ -7,7 +7,6 @@
         ];
         installDependencies = "npm i";
       };
-      previews = {};
     };
   };
 }
