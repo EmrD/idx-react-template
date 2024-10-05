@@ -5,6 +5,7 @@
   ];
   bootstrap = ''
     mkdir "$out"
+    git clone https://github.com/EmrD/react-tailwind-template.git
   '';
   env = {};
   idx = {
